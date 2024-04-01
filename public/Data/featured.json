@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Education for Underprivileged Children",
+      "price": 25.99,
+      "description": "This donation supports educational initiatives for underprivileged children, providing them with access to quality education, school supplies, and learning resources. Your contribution helps break the cycle of poverty by empowering children through education.",
+      "donation_type": "Education"
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Clean Water Initiative",
+      "price": 19.99,
+      "description": "Support projects aimed at ensuring access to clean and safe drinking water for communities in need. Your donation helps fund the construction of wells, water purification systems, and sanitation facilities, improving health and reducing waterborne diseases.",
+      "donation_type": "Water"
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Emergency Relief Fund",
+      "price": 50.00,
+      "description": "This fund provides immediate aid and support to communities affected by natural disasters, conflicts, or humanitarian crises. Your donation helps deliver essential supplies, shelter, medical care, and other life-saving assistance to those in urgent need.",
+      "donation_type": "Emergency Relief"
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Animal Shelter Support",
+      "price": 30.00,
+      "description": "Help rescue and care for animals in shelters by providing food, medical care, shelter, and adoption services. Your donation supports efforts to protect and improve the lives of animals, promoting animal welfare and responsible pet ownership.",
+      "donation_type": "Animal Welfare"
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Homeless Shelter Assistance",
+      "price": 35.00,
+      "description": "Support homeless shelters to provide food, shelter, counseling, and rehabilitation services for individuals experiencing homelessness. Your donation helps create a safe and supportive environment, empowering individuals to rebuild their lives and regain independence.",
+      "donation_type": "Homelessness"
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Environmental Conservation Efforts",
+      "price": 40.00,
+      "description": "Fund projects aimed at preserving and protecting natural habitats, wildlife, and ecosystems. Your donation supports initiatives such as reforestation, habitat restoration, and wildlife conservation, contributing to a healthier planet for current and future generations.",
+      "donation_type": "Environment"
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/image7.jpg",
+      "title": "Healthcare Access for Vulnerable Communities",
+      "price": 30.00,
+      "description": "Provide medical supplies, equipment, and healthcare services to underserved populations. Your donation supports initiatives that improve access to healthcare, promote preventive care, and address healthcare disparities, ensuring better health outcomes for vulnerable communities.",
+      "donation_type": "Healthcare"
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Food Security Program",
+      "price": 25.00,
+      "description": "Support initiatives to alleviate hunger and food insecurity by providing meals, nutritional assistance, and sustainable agriculture programs. Your donation helps ensure access to nutritious food, improve food production, and empower communities to overcome food insecurity.",
+      "donation_type": "Food Security"
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Empowerment of Women and Girls",
+      "price": 30.00,
+      "description": "Fund programs and initiatives aimed at promoting gender equality, education, and empowerment for women and girls. Your donation supports efforts to eliminate discrimination, advance women's rights, and create opportunities for women and girls to thrive.",
+      "donation_type": "Gender Equality"
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/image10.jpg",
+      "title": "Community Development Projects",
+      "price": 40.00,
+      "description": "Support sustainable development projects that enhance infrastructure, education, healthcare, and livelihood opportunities in communities. Your donation helps build stronger, more resilient communities, fostering economic growth and improving quality of life for residents.",
+      "donation_type": "Community Development"
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/image11.jpg",
+      "title": "Youth Mentorship Program",
+      "price": 25.00,
+      "description": "Provide guidance, education, and support to youth from disadvantaged backgrounds to help them reach their full potential. Your donation supports mentorship programs, skills training, and educational opportunities, empowering youth to succeed and become future leaders.",
+      "donation_type": "Youth Development"
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/image12.jpg",
+      "title": "Disaster Preparedness Training",
+      "price": 20.00,
+      "description": "Fund initiatives to train communities in disaster preparedness, response, and resilience-building. Your donation supports the development of emergency plans, evacuation drills, and skills training, helping communities better prepare for and respond to disasters.",
+      "donation_type": "Disaster Preparedness"
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/image13.jpg",
+      "title": "Art and Culture Preservation",
+      "price": 30.00,
+      "description": "Support projects aimed at preserving and promoting art, culture, and heritage in communities. Your donation helps preserve historical sites, traditions, and artistic expressions, fostering cultural diversity, creativity, and social cohesion.",
+      "donation_type": "Art and Culture"
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/image14.jpg",
+      "title": "Refugee Assistance Program",
+      "price": 35.00,
+      "description": "Provide essential aid, shelter, and support services to refugees displaced by conflicts or persecution. Your donation helps provide food, shelter, medical care, education, and livelihood support to refugees, enabling them to rebuild their lives and integrate into new communities.",
+      "donation_type": "Refugee Support"
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/image15.jpg",
+      "title": "Elderly Care Services",
+      "price": 25.00,
+      "description": "Support programs and facilities that provide care, companionship, and assistance to elderly individuals. Your donation helps ensure access to healthcare, social activities, and support services, improving quality of life and well-being for elderly members of the community.",
+      "donation_type": "Elderly Care"
+    },
+    {
+        "id": 16,
+        "image": "https://example.com/image16.jpg",
+        "title": "Disability Inclusion Initiatives",
+        "price": 30.00,
+        "description": "Fund projects aimed at promoting inclusivity, accessibility, and opportunities for individuals with disabilities. Your donation supports initiatives such as accessible infrastructure, assistive technologies, and disability rights advocacy, empowering individuals with disabilities to fully participate in society.",
+        "donation_type": "Disability Inclusion"
+      },
+      {
+        "id": 17,
+        "image": "https://example.com/image17.jpg",
+        "title": "Peace and Conflict Resolution Efforts",
+        "price": 40.00,
+        "description": "Support initiatives that promote peacebuilding, reconciliation, and conflict resolution in regions affected by violence and instability. Your donation helps facilitate dialogue, promote non-violent conflict resolution, and address root causes of conflicts, contributing to lasting peace and stability.",
+        "donation_type": "Peacebuilding"
+      },
+      {
+        "id": 18,
+        "image": "https://example.com/image18.jpg",
+        "title": "Technology Access Program",
+        "price": 30.00,
+        "description": "Provide access to technology, digital literacy training, and IT resources for underserved communities. Your donation supports initiatives that bridge the digital divide, empower individuals with technological skills, and create opportunities for economic and social advancement.",
+        "donation_type": "Technology Access"
+      },
+      {
+        "id": 19,
+        "image": "https://example.com/image19.jpg",
+        "title": "Mental Health Support Services",
+        "price": 35.00,
+        "description": "Fund programs and initiatives that provide mental health education, counseling, and support services. Your donation helps raise awareness about mental health issues, reduce stigma, and ensure access to quality mental health care for individuals and communities in need.",
+        "donation_type": "Mental Health"
+      },
+      {
+        "id": 20,
+        "image": "https://example.com/image20.jpg",
+        "title": "Small Business Development Fund",
+        "price": 40.00,
+        "description": "Support aspiring entrepreneurs and small businesses through funding, training, and mentorship programs. Your donation helps promote entrepreneurship, create job opportunities, and stimulate economic growth in communities, fostering innovation and sustainability.",
+        "donation_type": "Small Business Development"
+      },
+      {
+        "id": 21,
+        "image": "https://example.com/image21.jpg",
+        "title": "Literacy Programs",
+        "price": 20.00,
+        "description": "Fund programs that promote literacy and education for children and adults. Your donation supports initiatives such as reading programs, adult education classes, and library services, empowering individuals through knowledge and skills development.",
+        "donation_type": "Literacy"
+      },
+      {
+        "id": 22,
+        "image": "https://example.com/image22.jpg",
+        "title": "Youth Sports Development",
+        "price": 25.00,
+        "description": "Support youth sports programs that promote physical activity, teamwork, and leadership skills. Your donation helps provide access to sports facilities, equipment, and coaching, enabling young people to develop healthy habits and reach their full potential.",
+        "donation_type": "Youth Sports"
+      },
+      {
+        "id": 23,
+        "image": "https://example.com/image23.jpg",
+        "title": "Community Garden Projects",
+        "price": 20.00,
+        "description": "Support community garden initiatives that promote urban agriculture, food sovereignty, and environmental sustainability. Your donation helps create green spaces, grow nutritious food, and strengthen community bonds through shared gardening activities.",
+        "donation_type": "Community Gardens"
+      },
+      {
+        "id": 24,
+        "image": "https://example.com/image24.jpg",
+        "title": "Human Rights Advocacy",
+        "price": 35.00,
+        "description": "Fund organizations and campaigns that advocate for human rights, social justice, and equality. Your donation supports efforts to raise awareness, lobby for policy changes, and hold accountable those who violate human rights, promoting dignity and justice for all.",
+        "donation_type": "Human Rights"
+      },
+      {
+        "id": 25,
+        "image": "https://example.com/image25.jpg",
+        "title": "Community Emergency Response Teams",
+        "price": 30.00,
+        "description": "Support community emergency response teams that provide assistance during disasters and emergencies. Your donation helps train volunteers, acquire emergency supplies, and establish communication networks, enhancing local resilience and saving lives in times of crisis.",
+        "donation_type": "Emergency Response Teams"
+      }
+    
+]
