@@ -8,8 +8,11 @@ const DisplayFeaturedDetails = ({element}) => {
     return (
         <div className=' my-12'>
             <div className=' relative'>
-                <img src={image} className=' h-[650px] w-[1360px] rounded-lg my-5 object-cover ' alt="" />
-                <Button color='red' className=' absolute bottom-4 left-5'>Donate ${price}</Button>
+                <img src={image} className=' h-[650px] w-[1360px] rounded-lg my-5 object-cover' alt="" />
+                <div className=' absolute bottom-4 left-5'>
+
+                <Button color='red' >Donate ${price}</Button>
+                </div>
             </div>
 
             <div className=' space-y-4'>
