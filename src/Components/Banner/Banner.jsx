@@ -1,11 +1,11 @@
-import React from "react";
+
 import { Button, Input } from "@material-tailwind/react";
 
 
-const Banner = () => {
 
-    const [email, setEmail] = React.useState("");
-    const onChange = ({ target }) => setEmail(target.value);
+const Banner = ({handleSearchField,text,handleFilter}) => {
+
+    
     return (
         <>
             <div className=" relative min-h-[570px] w-full flex justify-center items-center flex-col">
@@ -16,10 +16,10 @@ const Banner = () => {
 
                 <div className="relative flex w-full max-w-[24rem]">
       <Input
-        type="email"
-        label="Email Address"
-        value={email}
-        onChange={onChange}
+        type="text"
+        label="Category Name"
+        value={text}
+        onChange={(e) => handleSearchField(e)}
         className="pr-20"
         containerProps={{
           className: "min-w-0",
@@ -27,9 +27,10 @@ const Banner = () => {
       />
       <Button
         size="sm"
-        color={email ? "gray" : "blue-gray"}
-        disabled={!email}
+        color={text ? "gray" : "blue-gray"}
+        disabled={!text}
         className="!absolute right-1 top-1 rounded"
+        onClick={() => handleFilter()}
       >
         Search
       </Button>

@@ -1,8 +1,12 @@
 import { Button } from '@material-tailwind/react';
 import PropTypes from 'prop-types';
+import { savedDataOnLocalStorage } from '../../Utils/LocalStorage';
 
 const DisplayFeaturedDetails = ({element}) => {
-    console.log(element);
+
+    const handleLocalStorage = () => {
+        savedDataOnLocalStorage(element)
+    }
 
     const {image, title, price, description} = element
     return (
@@ -11,7 +15,7 @@ const DisplayFeaturedDetails = ({element}) => {
                 <img src={image} className=' h-[650px] w-[1360px] rounded-lg my-5 object-cover' alt="" />
                 <div className=' absolute bottom-4 left-5'>
 
-                <Button color='red' >Donate ${price}</Button>
+                <Button color='red' onClick={() => handleLocalStorage()} >Donate ${price}</Button>
                 </div>
             </div>
 

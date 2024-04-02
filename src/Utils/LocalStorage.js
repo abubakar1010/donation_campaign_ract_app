@@ -10,7 +10,7 @@ const savedDataOnLocalStorage = (data) => {
     if (!isExist) {
         getDataFromLocalStorage.push(data)
 
-        localStorage.setItem(JSON.stringify("donation", getDataFromLocalStorage))
+        localStorage.setItem("donation",JSON.stringify(getDataFromLocalStorage))
     }
 }
 
