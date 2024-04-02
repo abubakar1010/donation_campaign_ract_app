@@ -9,7 +9,7 @@ const useFeaturedData = () => {
     useEffect(() => {
 
         setLoader(true)
-        fetch('featured.json')
+        fetch('Data/featured.json')
         .then( response => response.json())
         .then( response => setGetData(response))
 
