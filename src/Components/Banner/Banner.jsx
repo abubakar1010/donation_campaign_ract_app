@@ -3,9 +3,12 @@ import { Button, Input } from "@material-tailwind/react";
 
 
 
-const Banner = ({handleSearchField,text,handleFilter}) => {
+const Banner = ({handleSearchField,setText,text,handleFilter}) => {
 
-    
+    const clearInputValue = () => {
+
+      setText("")
+    }
     return (
         <>
             <div className=" relative min-h-[570px] w-full flex justify-center items-center flex-col">
@@ -30,7 +33,9 @@ const Banner = ({handleSearchField,text,handleFilter}) => {
         color={text ? "gray" : "blue-gray"}
         disabled={!text}
         className="!absolute right-1 top-1 rounded"
-        onClick={() => handleFilter()}
+        onClick={() => {
+          handleFilter()
+        clearInputValue()}}
       >
         Search
       </Button>

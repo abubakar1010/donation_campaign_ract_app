@@ -27,7 +27,7 @@ const Home = () => {
     }
     return (
         <div className=" container mx-auto">
-            <Banner handleSearchField={handleSearchField} text={text} handleFilter={handleFilter} />
+            <Banner handleSearchField={handleSearchField} setText={setText} text={text} handleFilter={handleFilter} />
             <Featured filterData={filterData} />
         </div>
     );
